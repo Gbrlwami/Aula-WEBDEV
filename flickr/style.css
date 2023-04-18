@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.7);
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    fill: blueviolet;
+}
+
+nav h2 {
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+/*.search-bar {
+    width: 200x;
+}*/
+
+.accesso {
+    color: white;
+    margin-left: 300px;
+}
+
+.registrazione {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.registrazione:hover {
+    color: gray;
+}
+
+.wallpaper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Assets/canva-pink-landscape-desktop-wallpaper-HGxdJA_xIx0.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    /* Centra i pulsanti */
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;*/
+}
+
+.hero {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+main div h1 {
+    text-align: center;
+    color: white;
+}
+
+main div p {
+    color:gray;
+}
+
+.botton {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.botton:hover {
+    color: gray;
+}
+
+.footer-nav {
+    display: flex;
+    height: 50px;
+    background-color: black;
+    color: gray;
+}
+
+.logo1 {
+    width: 20px;
+    fill: gray;
+}
